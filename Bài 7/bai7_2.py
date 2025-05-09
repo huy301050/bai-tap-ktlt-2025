@@ -30,5 +30,5 @@ def analyze_file(file_path):
     #Nếu có bất kỳ lỗi nào khác, 
         print(f"Có lỗi xảy ra: {e}")
         #in ra thông báo lỗi chi tiết (e).
-analyze_file('khang.txt')
+analyze_file('Huy.txt')
 #Gọi hàm analyze_file với đường dẫn 'phuc.txt' để thực hiện phân tích tệp.

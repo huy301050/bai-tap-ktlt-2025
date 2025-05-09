@@ -29,5 +29,5 @@ def file_read_from_tail(fname, lines):
                 #''.join(...)Nối tất cả các dòng lại thành một chuỗi lớn (giữ nguyên định dạng dòng, vì các dòng trong data vẫn có \n ở cuối).
                 #print(...)In ra màn hình các dòng cuối cùng đã nối.
                 break#Thoát khỏi vòng lặp while True sau khi đã đủ số dòng yêu cầu hoặc đã đến đầu tệp.
-file_read_from_tail('khang.txt', 2)
+file_read_from_tail('Huy.txt', 2)
 #Gọi hàm để đọc 2 dòng cuối cùng của tệp 'phuc.txt'.

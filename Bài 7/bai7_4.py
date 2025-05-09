@@ -25,5 +25,5 @@ def read_first_n_lines(file_path, n):
     except Exception as e:
     #Nếu có lỗi khác (như lỗi mã hóa, quyền truy cập...), in ra thông báo cùng thông tin chi tiết từ biến e.
         print(f"Có lỗi xảy ra: {e}")
-read_first_n_lines('khang.txt', 1)
+read_first_n_lines('Huy.txt', 1)
 #Gọi hàm và yêu cầu đọc 1 dòng đầu tiên của tệp 'phuc.txt'.

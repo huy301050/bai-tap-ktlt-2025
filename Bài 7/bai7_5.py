@@ -13,5 +13,5 @@ def file_append_and_read(fname):
     #Mở lại tệp ở chế độ đọc ("r") để xem toàn bộ nội dung sau khi đã thêm dữ liệu.
         print(txt.read())
         #Đọc và in ra toàn bộ nội dung của tệp, bao gồm cả những dòng vừa thêm.
-file_append_and_read('khang.txt')
+file_append_and_read('Huy.txt')
 #Gọi hàm và yêu cầu đọc 1 dòng đầu tiên của tệp 'phuc.txt'.

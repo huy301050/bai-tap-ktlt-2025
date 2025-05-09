@@ -10,6 +10,6 @@ def count_lines_in_file(fname):
         num_lines = len(lines)
         #Dùng len() để đếm số phần tử trong danh sách lines, tức là số dòng trong tệp.
         return num_lines#Trả về số dòng đã đếm được.
-file_name = 'khang.txt' #Gán tên tệp cần đọc vào biến file_name.
+file_name = 'Huy.txt' #Gán tên tệp cần đọc vào biến file_name.
 line_count = count_lines_in_file(file_name)#Gọi hàm count_lines_in_file để đếm số dòng trong tệp, lưu kết quả vào biến line_count.
 print(f"Số dòng trong tệp '{file_name}' là: {line_count}")

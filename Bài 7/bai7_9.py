@@ -15,7 +15,7 @@ def copy_file_content(source_file, destination_file):
             #Đọc toàn bộ nội dung từ tệp nguồn (src) và lưu vào biến content. 
             dest.write(content)
             #Ghi nội dung vừa đọc được (content) vào tệp đích (dest). 
-source_file_name = 'khang.txt' #Gán chuỗi 'khang.txt' (đường dẫn đến tệp nguồn) cho biến source_file_name.
+source_file_name = 'Huy.txt' #Gán chuỗi 'khang.txt' (đường dẫn đến tệp nguồn) cho biến source_file_name.
 destination_file_name = 'destination.txt'#Gán chuỗi 'destination.txt' (đường dẫn đến tệp đích) cho biến destination_file_name.  
 copy_file_content(source_file_name, destination_file_name)
 #Gọi hàm copy_file_content để sao chép nội dung từ tệp nguồn sang tệp đích.

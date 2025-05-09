@@ -18,5 +18,5 @@ def read_entire_file(file_path):
     except Exception as e:
     #Nếu có lỗi khác (như lỗi mã hóa, quyền truy cập...), in ra thông báo cùng thông tin chi tiết từ biến e.
         print(f"Có lỗi xảy ra: {e}")
-read_entire_file('khang.txt')
+read_entire_file('Huy.txt')
 #Gọi hàm read_entire_file với đường dẫn 'phuc.txt' để thực thi và in nội dung tệp.
